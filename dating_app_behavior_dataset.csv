@@ -1,0 +1,18 @@
+SUMMARY OUTPUT,,,,,,,,
+,,,,,,,,
+Regression Statistics,,,,,,,,
+Multiple R,0.000148572,,,,,,,
+R Square,2.20736E-08,,,,,,,
+Adjusted R Square,-1.99787E-05,,,,,,,
+Standard Error,57.99737818,,,,,,,
+Observations,50000,,,,,,,
+,,,,,,,,
+ANOVA,,,,,,,,
+,df,SS,MS,F,Significance F,,,
+Regression,1,3.712299436,3.712299436,0.001103637,0.973498458,,,
+Residual,49998,168178066.4,3363.695876,,,,,
+Total,49999,168178070.1,,,,,,
+,,,,,,,,
+,Coefficients,Standard Error,t Stat,P-value,Lower 95%,Upper 95%,Lower 95.0%,Upper 95.0%
+Intercept,99.54092717,0.517773882,192.2478724,0,98.52608444,100.5557699,98.52608444,100.5557699
+X Variable 1,-5.95072E-05,0.00179125,-0.033221033,0.973498458,-0.003570377,0.003451363,-0.003570377,0.003451363
