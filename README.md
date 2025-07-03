@@ -4,6 +4,27 @@
 
 There is an investigation of the interaction between words in a user's bio and likes on dating apps based on a sample of 50,000 dating app users' profiles. We tested whether the words in their bio impact how many likes users acquire, with age as a control variable for users. In our statistical testing, regression modeling, ANOVA, F-tests, and t-tests were applied with no significant interaction between words in the bio and acquired likes found repeatedly (p = 0.973, R² ≈ 0). Scatter plot visual inspection reinforced no apparent interaction between variables. The result is in disagreement with common dating advice based on profile optimization. While the length of the bio does not work as an indicator, our broad prediction intervals (±113.7 likes) indicate high variability due to unmeasured variables such as picture maximization, interests compatibility, or algorithm rules. This research suggests the difficulty in dating app success factors and advises testing additional variables in future studies.
 
+| Column Name              | Description                                                                                      |
+|--------------------------|--------------------------------------------------------------------------------------------------|
+| `gender`                 | The gender of the samples                                                                        |
+| `sexual_orientation`     | The sexual orientation of the samples                                                            |
+| `location_type`          | The location type where the samples live                                                         |
+| `income_bracket`         | The level of the samples' income                                                                 |
+| `education_level`        | The education level of the samples                                                               |
+| `interest_tags`          | The interests of the samples                                                                     |
+| `app_usage_time_min`     | The time that the samples spend on the dating app                                                |
+| `app_usage_time_label`   | Based on the time spent on the dating app, segment the usage time by levels                      |
+| `swipe_right_label`      | The preference that the samples swipe right                                                      |
+| `likes_received`         | The likes that the samples received                                                              |
+| `mutual_matches`         | The connection where both users express interest in each other                                   |
+| `profile_pics_count`     | The pictures that the samples add to their profile                                               |
+| `bio_length`             | The word count that the samples have on their profile bio length                                 |
+| `message_sent_count`     | The messages that the samples sent on the dating app                                             |
+| `emoji_usage_rate`       | The rate of emojis used by the samples during the conversation with their match                  |
+| `last_active_hour`       | The timestamp indicating when the user was last online                                           |
+| `swipe_time_of_day`      | The time when the sample usually swipes on the dating app                                        |
+| `match_outcome`          | The outcome of the samples using dating app to find a partner                                    |
+
 
 ## Body of Report
 
