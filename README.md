@@ -23,12 +23,11 @@ There is an investigation of the interaction between words in a user's bio and l
 | `emoji_usage_rate`       | The rate of emojis used by the samples during the conversation with their match                  |
 | `last_active_hour`       | The timestamp indicating when the user was last online                                           |
 | `swipe_time_of_day`      | The time when the sample usually swipes on the dating app                                        |
-| `match_outcome`          | The outcome of the samples using dating app to find a partner                                    |
-
+| `match_outcome`          | The outcome of the samples using the dating app to find a partner                                |
 
 ## Body of Report
 
-### 1. Quantative Summary of Data
+### 1. Quantitative Summary of Data
 
 Our sample consists of 50,000 users of dating applications whose profiles include details on the length of bio (X) and the received likes (Y). The bio length averages 250 words with a standard deviation of 144 words, varying between 0 and 500 words. This reveals high heterogeneity in the amount authored within profiles, as some users leave their bios blank but others take up the maximum space their platform allows. For the dependent measure, received likes, the typical member in our sample received close to 99.5 likes, while specific standard deviation scores reveal high variability in popularity among profiles.
 
@@ -63,7 +62,12 @@ For the profile with a bio length of 150 words, the 95%-confidence interval for 
 
 ## Conclusion
 
-Our findings unequivocally prove that bio length does not have any statistically significant correlation with the number of likes on dating app profiles. Irrespective of how often advice is shared on how to optimize dating profiles, the length of your bio does not affect the popularity of your profile at all, as can be seen in our near zero R² value and high p-values for both t and F tests.
+Our findings unequivocally prove that bio length does not have any statistically significant correlation with the number of likes on dating app profiles. Irrespective of how often advice is shared on how to optimize dating profiles, the length of your bio does not affect the popularity of your profile at all, as can be seen in our near-zero R² value and high p-values for both t and F tests.
+
+#Appendixes
+
+##Appendix 1:
+
 
 
 
